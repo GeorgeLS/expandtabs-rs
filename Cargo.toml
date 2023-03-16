@@ -1,0 +1,13 @@
+[package]
+name = "expandtabs-rs"
+authors = ["George Liontos <georgeliontos98@gmail.com"]
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+include = ["src/**/*", "Cargo.toml"]
+description = """
+expandtabs-rs is a library which provides an extension for everything that can be
+converted to a string reference and expands the tab characted to spaces
+"""
+
+[dependencies]
